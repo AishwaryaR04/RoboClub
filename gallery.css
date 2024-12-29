@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+    margin: 0;
+    font-family: "Turret Road", serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+header a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a {
+    margin: 0 15px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.gallery {
+    text-align: center;
+    padding: 50px;
+}
+
+.gallery h1 {
+    font-size: 36px;
+    color: aquamarine;
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item img {
+    width: 450px;
+    height: auto;
+    transition: transform 0.3s ease;
+    
+}
+
+.gallery-item img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .gallery h1 {
+        font-size: 28px;
+    }
+}

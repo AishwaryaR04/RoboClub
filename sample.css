@@ -1,0 +1,206 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+    margin: 0;
+    font-family: "Turret Road", serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+.header img{
+    width: 20px;
+}
+header a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a {
+    margin: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.landing {
+    padding: 80px;
+    background: url('https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/ArtificialIntelligence-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.landing p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.eventheading {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h1 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: whitesmoke;
+}
+
+.achievements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.achievements .content {
+    flex: 1;
+    max-width: 500px;
+}
+
+.achievements .content h1 {
+    font-size: 30px;
+    color: rgb(61, 207, 163);
+}
+
+.achievements .content p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.achievements .content button {
+    width: 120px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: aquamarine;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.achievements .content button:hover {
+    background-color: #80e6c6;
+}
+
+.imag img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+.container {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.stat {
+    text-align: center;
+}
+.number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:aquamarine;
+}
+.label {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+.contact {
+    background-color: rgb(56, 60, 60);
+    padding: 50px 20px;
+    text-align: center;
+    color: rgb(249, 243, 243);
+}
+
+.contactdetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactdetails h1 {
+    margin-bottom: 20px;
+}
+
+.contactdetails input {
+    margin: 10px;
+    width: 300px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.contactdetails button {
+    width: 120px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: aquamarine;
+    color: rgb(15, 13, 13);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contactdetails button:hover {
+    background-color: #80e6c6;
+}
